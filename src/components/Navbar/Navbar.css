@@ -1,0 +1,159 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  padding: 22px 7%;
+  transition: 0.3s ease;
+}
+
+.navbar.scrolled {
+  padding: 15px 7%;
+  background: rgba(7, 12, 25, 0.92);
+  backdrop-filter: blur(15px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.nav-container {
+  max-width: 1250px;
+  margin: auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 30px;
+  font-weight: 800;
+  color: #ffffff;
+  width: 150px;
+}
+
+.logo span {
+  color: #38bdf8;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+
+.nav-links a {
+  color: #cbd5e1;
+  font-size: 15px;
+  font-weight: 500;
+  transition: 0.3s ease;
+  position: relative;
+}
+
+.nav-links a::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  left: 0;
+  bottom: -7px;
+  background: #38bdf8;
+  transition: 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #ffffff;
+}
+
+.nav-links a:hover::after {
+  width: 100%;
+}
+
+.nav-button {
+  padding: 11px 22px;
+  border: 1px solid #38bdf8;
+  border-radius: 30px;
+  color: #ffffff;
+  font-size: 14px;
+  transition: 0.3s ease;
+}
+
+.nav-button:hover {
+  background: #38bdf8;
+  color: #07101f;
+}
+
+.menu-button {
+  display: none;
+  background: transparent;
+  color: #ffffff;
+  font-size: 25px;
+  padding: 5px;
+}
+
+/* Mobile */
+
+@media (max-width: 900px) {
+
+  .nav-button {
+    display: none;
+  }
+
+  .menu-button {
+    display: block;
+  }
+
+  .nav-links {
+    position: absolute;
+    top: 80px;
+    left: 5%;
+    width: 90%;
+
+    padding: 25px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+    background: #111827;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 15px;
+
+    transform: translateY(-20px);
+    opacity: 0;
+    visibility: hidden;
+
+    transition: 0.3s ease;
+  }
+
+  .nav-links.active {
+    transform: translateY(0);
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .nav-links a {
+    font-size: 16px;
+  }
+}
+.nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+@media (max-width: 900px) {
+
+  .nav-button {
+    display: none;
+  }
+
+  .nav-actions {
+    margin-left: auto;
+    margin-right: 12px;
+  }
+
+  .menu-button {
+    display: block;
+  }
+
+}

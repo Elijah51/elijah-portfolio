@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+
+:root {
+  --primary: #38bdf8;
+  --primary-dark: #0ea5e9;
+
+  --background: #070c19;
+  --background-light: #0f172a;
+  --card: #111827;
+
+  --white: #ffffff;
+  --text: #e2e8f0;
+  --muted: #94a3b8;
+
+  --border: #1e293b;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 90px;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+
+  background: var(--background);
+  color: var(--text);
+
+  overflow-x: hidden;
+}
+
+body,
+button,
+input,
+textarea {
+  font-family: "Inter", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+section {
+  padding: 100px 7%;
+}
+
+.container {
+  width: 100%;
+  max-width: 1250px;
+  margin: auto;
+}
+
+.section-title {
+  text-align: center;
+
+  font-size: clamp(32px, 5vw, 45px);
+
+  color: var(--white);
+
+  margin-bottom: 60px;
+}
+
+.section-title::after {
+  content: "";
+
+  display: block;
+
+  width: 55px;
+  height: 3px;
+
+  background: var(--primary);
+
+  margin: 15px auto 0;
+
+  border-radius: 10px;
+}
+
+::selection {
+  background: var(--primary);
+  color: #06101d;
+}
+
+/* Scrollbar */
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #070c19;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #334155;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--primary);
+}
+
+/* Light Theme */
+
+.light-theme {
+  --background: #f8fafc;
+  --background-light: #ffffff;
+  --card: #ffffff;
+
+  --white: #0f172a;
+  --text: #1e293b;
+  --muted: #64748b;
+
+  --border: #e2e8f0;
+}
+
+.light-theme body {
+  background: #f8fafc;
+  color: #1e293b;
+}
+
+.light-theme .navbar {
+  background: rgba(248, 250, 252, 0.92);
+}
+
+.light-theme .nav-links a {
+  color: #475569;
+}
+
+.light-theme .logo {
+  color: #0f172a;
+}
+
+.light-theme .hero,
+.light-theme .services,
+.light-theme .experience {
+  background: #f8fafc;
+}
+
+.light-theme .about,
+.light-theme .portfolio,
+.light-theme .contact {
+  background: #ffffff;
+}
+
+.light-theme .service-card,
+.light-theme .skill-card,
+.light-theme .stat-card,
+.light-theme .project-card,
+.light-theme .timeline-card,
+.light-theme .contact-form {
+  background: #ffffff;
+  border-color: #e2e8f0;
+}
+
+.light-theme .hero-content h1,
+.light-theme .hero-content h2,
+.light-theme .about-text h3,
+.light-theme .skills-heading h3,
+.light-theme .service-card h3,
+.light-theme .project-content h3,
+.light-theme .timeline-card h3,
+.light-theme .contact-info h3 {
+  color: #0f172a;
+}
+
+.light-theme .hero-description,
+.light-theme .about-text > p,
+.light-theme .skill-card p,
+.light-theme .service-card > p,
+.light-theme .project-content > p,
+.light-theme .timeline-card p,
+.light-theme .contact-info > p {
+  color: #64748b;
+}
