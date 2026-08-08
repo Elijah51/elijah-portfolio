@@ -76,7 +76,7 @@ function Hero() {
           <div className="hero-socials">
 
             <a
-              href="https://github.com/"
+              href="https://github.com/Elijah51"
               target="_blank"
               rel="noreferrer"
               aria-label="GitHub"
@@ -158,7 +158,7 @@ alt="profile"
           </div>
 
           <div className="floating-card card-two">
-            <strong>20+</strong>
+            <strong>6+</strong>
             <span>Projects & Tasks</span>
           </div>
 

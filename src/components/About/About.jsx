@@ -115,12 +115,12 @@ function About() {
             </div>
 
             <div className="stat-card">
-              <strong>9+</strong>
+              <strong>3+</strong>
               <span>Technology Skills</span>
             </div>
 
             <div className="stat-card">
-              <strong>10+</strong>
+              <strong>6+</strong>
               <span>Projects & Tasks</span>
             </div>
 
@@ -133,57 +133,7 @@ function About() {
 
         </div>
 
-        {/* Professional areas */}
-
-        <div className="professional-skills">
-
-          <div className="skills-heading">
-            <p>WHAT I DO</p>
-            <h3>My Professional Skills</h3>
-          </div>
-
-          <div className="skills-grid">
-
-            {skills.map((skill, index) => (
-              <div className="skill-card" key={index}>
-
-                <div className="skill-icon">
-                  {skill.icon}
-                </div>
-
-                <h4>{skill.title}</h4>
-
-                <p>{skill.text}</p>
-
               </div>
-            ))}
-
-          </div>
-
-        </div>
-
-        {/* Technologies */}
-
-        <div className="technology-section">
-
-          <div className="skills-heading">
-            <p>MY TOOLKIT</p>
-            <h3>Technologies I Work With</h3>
-          </div>
-
-          <div className="technology-grid">
-
-            {technologies.map((technology, index) => (
-              <div className="technology" key={index}>
-                {technology}
-              </div>
-            ))}
-
-          </div>
-
-        </div>
-
-      </div>
 
     </section>
   );

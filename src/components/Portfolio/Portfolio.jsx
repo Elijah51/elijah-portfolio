@@ -16,19 +16,19 @@ const projects = [
     category: "Web Development",
     description:
       "A responsive personal portfolio website designed to showcase my skills, services, projects and professional experience.",
-    image: "/images/project1.jpg",
+    image: "/images/portfo.jpg",
     technologies: ["React", "JavaScript", "CSS"],
-    github: "https://github.com/",
-    live: "#"
+    github: "https://github.com/Elijah51",
+    live: "elijah-portfolio-lac.vercel.app"
   },
 
   {
     id: 2,
-    title: "Excel Data Analysis Dashboard",
+    title: "Business Performance Analysis Dashboard",
     category: "Data Analysis",
     description:
       "An interactive Excel dashboard designed to transform raw business data into useful insights and visual reports.",
-    image: "/images/project2.jpg",
+    image: "/images/businessPerf.jpg",
     technologies: ["Excel", "Pivot Table", "Charts"],
     github: "#",
     live: "#"
@@ -37,11 +37,11 @@ const projects = [
   {
     id: 3,
     title: "Student Management Dashboard",
-    category: "Dashboard",
+    category: "Data Analysis",
     description:
       "A dashboard interface for presenting student information, performance statistics and useful administrative data.",
-    image: "/images/project3.jpg",
-    technologies: ["React", "JavaScript", "CSS"],
+    image: "/images/studentDash.jpg",
+    technologies: ["Excel", "Pivot Table", "Charts"],
     github: "https://github.com/",
     live: "#"
   },
@@ -52,9 +52,9 @@ const projects = [
     category: "Web Development",
     description:
       "A modern e-commerce interface with product presentation, responsive layouts and an intuitive shopping experience.",
-    image: "/images/project4.jpg",
+    image: "/images/ecom.jpg",
     technologies: ["React", "CSS", "JavaScript"],
-    github: "#",
+    github: "https://github.com/Elijah51",
     live: "#"
   },
 
@@ -64,22 +64,22 @@ const projects = [
     category: "Graphic Design",
     description:
       "A collection of professional visual designs created for business branding and digital marketing.",
-    image: "/images/project5.jpg",
+    image: "/images/MyFryer.png",
     technologies: ["Graphic Design", "Branding"],
-    github: "#",
-    live: "#"
+    // github: "#",
+    // live: "#"
   },
 
   {
     id: 6,
     title: "NYSC Camp Dashboard",
-    category: "Dashboard",
+    category: "Data Analysis",
     description:
       "A dashboard concept designed for organizing and presenting camp-related information and statistics.",
-    image: "/images/project6.jpg",
-    technologies: ["React", "JavaScript", "CSS"],
+    image: "/images/NYSC_Dashboard.jpg",
+    technologies: ["Excel", "Pivot Table", "Charts"],
     github: "#",
-    live: "#"
+    live: "https://docs.google.com/spreadsheets/d/1IOAcq88GwN0X9pQG0Xk2mJ2L17Tr_L5D/edit?usp=drivesdk&ouid=101443957823882354688&rtpof=true&sd=true"
   }
 ];
 
@@ -87,7 +87,6 @@ const categories = [
   "All",
   "Web Development",
   "Data Analysis",
-  "Dashboard",
   "Graphic Design"
 ];
 

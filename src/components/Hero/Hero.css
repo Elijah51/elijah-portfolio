@@ -383,15 +383,15 @@
   .hero {
     padding: 120px 6% 60px;
   }
-
+/* 
   .hero-image-wrapper {
-    width: 280px;
-    height: 280px;
-  }
+    width: 250px;
+    height: 250px;
+  } */
 
   .profile-image {
-    width: 245px;
-    height: 245px;
+    width: 200px;
+    height: 200px;
   }
 
   .floating-card {
@@ -414,7 +414,10 @@
   .secondary-button {
     width: 100%;
     max-width: 280px;
+
   }
+  
+ 
 }
 .hero-image{
 
