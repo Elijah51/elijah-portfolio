@@ -7,7 +7,7 @@ function Footer() {
       <div className="container">
 
         <h3>
-          Simon, Elijah Dominic 
+          Elijah  Simon
         </h3>
 
         <p>

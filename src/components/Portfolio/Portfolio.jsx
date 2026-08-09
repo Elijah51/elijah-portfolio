@@ -17,8 +17,8 @@ const projects = [
     description:
       "A responsive personal portfolio website designed to showcase my skills, services, projects and professional experience.",
     image: "/images/portfo.jpg",
-    technologies: ["React", "JavaScript", "CSS"],
-    github: "https://github.com/Elijah51",
+    technologies: ["React", "JavaScript", "HTML", "CSS"],
+    github: "https://github.com/Elijah51/elijah-portfolio",
     live: "elijah-portfolio-lac.vercel.app"
   },
 
@@ -30,7 +30,6 @@ const projects = [
       "An interactive Excel dashboard designed to transform raw business data into useful insights and visual reports.",
     image: "/images/businessPerf.jpg",
     technologies: ["Excel", "Pivot Table", "Charts"],
-    github: "#",
     live: "#"
   },
 
@@ -42,7 +41,6 @@ const projects = [
       "A dashboard interface for presenting student information, performance statistics and useful administrative data.",
     image: "/images/studentDash.jpg",
     technologies: ["Excel", "Pivot Table", "Charts"],
-    github: "https://github.com/",
     live: "#"
   },
 
@@ -65,9 +63,8 @@ const projects = [
     description:
       "A collection of professional visual designs created for business branding and digital marketing.",
     image: "/images/MyFryer.png",
-    technologies: ["Graphic Design", "Branding"],
-    // github: "#",
-    // live: "#"
+    technologies: ["Corel Draw", "Photoshop"],
+    live: "#"
   },
 
   {
@@ -78,7 +75,6 @@ const projects = [
       "A dashboard concept designed for organizing and presenting camp-related information and statistics.",
     image: "/images/NYSC_Dashboard.jpg",
     technologies: ["Excel", "Pivot Table", "Charts"],
-    github: "#",
     live: "https://docs.google.com/spreadsheets/d/1IOAcq88GwN0X9pQG0Xk2mJ2L17Tr_L5D/edit?usp=drivesdk&ouid=101443957823882354688&rtpof=true&sd=true"
   }
 ];
@@ -173,14 +169,16 @@ function Portfolio() {
                     <FaExternalLinkAlt />
                   </a>
 
-                  <a
-                    href={project.github}
-                    target="_blank"
-                    rel="noreferrer"
-                    aria-label={`View ${project.title} on GitHub`}
-                  >
-                    <FaGithub />
-                  </a>
+                  {project.github && (
+              <a
+                href={project.github}
+                target="_blank"
+                rel="noreferrer"
+                aria-label={`View ${project.title} on GitHub`}
+              >
+                <FaGithub />
+              </a>
+)}
 
                 </div>
 
@@ -229,14 +227,16 @@ function Portfolio() {
                     <FaExternalLinkAlt />
                   </a>
 
-                  <a
-                    href={project.github}
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    Source Code
-                    <FaGithub />
-                  </a>
+                  {project.github && (
+                <a
+                  href={project.github}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Source Code
+                  <FaGithub />
+                </a>
+              )}
 
                 </div>
 

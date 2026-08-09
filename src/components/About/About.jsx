@@ -62,7 +62,7 @@ function About() {
             </h3>
 
             <p>
-              I am Elijah Dominic Simon, a Computer Science graduate
+              I`m Elijah Simon, a Computer Science graduate
               passionate about technology, creativity and business.
               I enjoy solving problems by combining technical skills
               with analytical thinking and creative design.

@@ -15,7 +15,7 @@ const services = [
     title: "Web Development",
     description:
       "I build modern, responsive and user-friendly websites using HTML, CSS, JavaScript and React.",
-    tags: ["React", "JavaScript", "CSS"]
+    tags: ["React", "JavaScript", "HTML5", "CSS"]
   },
   {
     icon: <FaChartBar />,
@@ -23,7 +23,7 @@ const services = [
     title: "Data Analysis",
     description:
       "I transform raw data into useful information through analysis, reporting, dashboards and visualization.",
-    tags: ["Excel", "Python", "Data"]
+    tags: ["Excel"]
   },
   {
     icon: <FaPaintBrush />,
@@ -31,7 +31,7 @@ const services = [
     title: "Graphic Design",
     description:
       "I create clean and professional visual designs for businesses, brands, social media and digital platforms.",
-    tags: ["Design", "Branding", "Graphics"]
+    tags: ["Corel Draw", "Photoshop"]
   },
   {
     icon: <FaHome />,
@@ -39,7 +39,7 @@ const services = [
     title: "Real Estate",
     description:
       "I support property marketing and digital presentation while helping clients identify suitable real estate opportunities.",
-    tags: ["Property", "Marketing", "Real Estate"]
+    tags: ["Property", "Marketing", "Management"]
   }
 ];
 

@@ -33,8 +33,8 @@ function Hero() {
           </p>
 
           <h1>
-            Simon
-            <span> Elijah Dominic</span>
+            Elijah
+            <span> Simon</span>
           </h1>
 
           <h2>
@@ -142,7 +142,7 @@ function Hero() {
 
            <div className="hero-image">
 
-<img src="/images/passport.jpg"
+<img src="/images/cooperate.png"
 alt="profile"
 
 />

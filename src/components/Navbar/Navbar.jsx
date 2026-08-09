@@ -28,7 +28,7 @@ function Navbar() {
       <div className="nav-container">
 
        <div className="logo">
-                <img src="./images/logo.jpg" alt="" />
+                <img src="./images/logo.png" alt="" />
             </div>
 
         <nav className={menuOpen ? "nav-links active" : "nav-links"}>

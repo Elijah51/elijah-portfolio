@@ -97,7 +97,7 @@ function Contact() {
 
                 <div>
                   <small>Location</small>
-                  <span>Nigeria</span>
+                  <span>Abuja</span>
                 </div>
               </div>
 
